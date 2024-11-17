@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Models\DataDiriVaqieh;
-use Illuminate\Http\Request;
+// use Illuminate\Http\Request;
 
 class DataDiriVaqiehController extends Controller
 {
