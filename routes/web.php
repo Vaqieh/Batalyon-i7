@@ -2,8 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Controllers\DataDiriController;
-use App\Http\Controllers\DataDiriNaylaController;
+use App\Http\Controllers\timController;
+use App\Http\Controllers\DataDiriTataController;
+use App\Http\Controllers\DataDiriVaqiehController;
+
 
 
 Route::get('/vaqieh', function () {
