@@ -33,7 +33,7 @@ Route::get('/vaqieh', function () {
 
 Route::get('datadiri', [DataDiriController::class, 'index']);
 Route::get('datanayla', [DataDiriNaylaController::class, 'index']);
-Route::get('datanayla', [DataDiriRandyController::class, 'index']);
+Route::get('datarandy', [DataDiriRandyController::class, 'index']);
 Route::get('datatata', [DataDiriTataController::class, 'index']);
 Route::get('datavaqieh', [DataDiriVaqiehController::class, 'index']);
 
