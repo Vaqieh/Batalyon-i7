@@ -15,7 +15,7 @@
     </table>
     <div>
         <p><strong>Quote of the day:</strong><br>
-            "Walk as if you are kissing the Earth with your feet." - Thich Nhat Hanh</p>
+            "Walk as if you are kissing the Earth with your feet..." - Thich Nhat Hanh</p>
     </div>
 </body>
 </html>
