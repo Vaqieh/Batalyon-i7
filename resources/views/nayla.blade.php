@@ -22,7 +22,7 @@
 
                 <!-- Kolom untuk gambar di kanan -->
                 <div class="col-md-6">
-                    <img src="{{ asset('image/.jpg') }}" alt="Foto Nayla" class="img-fluid">
+                    <img src="{{ asset('image/nayla.jpg') }}" alt="Foto Nayla" class="img-fluid">
                 </div>
             </div>
         </div>
