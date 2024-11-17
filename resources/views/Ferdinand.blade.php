@@ -17,7 +17,7 @@
                     <p><strong>Alamat:</strong> Jalan Kembang sari</p>
                     <p><strong>Email:</strong> ferdinand23ti@pcr.ac.id</p>
                     <p><strong>Nomor Telepon:</strong> 081270255613</p>
-                    <p><strong>Nama Kelompok:</strong> Batalyon-i7njh</p>
+                    <p><strong>Nama Kelompok:</strong> Batalyon-i7</p>
                 </div>
 
                 <!-- Kolom untuk gambar di kanan -->

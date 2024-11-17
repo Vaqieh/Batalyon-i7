@@ -17,7 +17,7 @@
                     <p><strong>Alamat:</strong> Jalan Permata Sari</p>
                     <p><strong>Email:</strong> nayla23ti@pcr.ac.id</p>
                     <p><strong>Nomor Telepon:</strong> 0856581447</p>
-                    <p><strong>Nama Kelompok:</strong> Batalyon-i7njh</p>
+                    <p><strong>Nama Kelompok:</strong> Batalyon-i7</p>
                 </div>
 
                 <!-- Kolom untuk gambar di kanan -->

@@ -45,7 +45,7 @@
                 <span>
                   <i class="ti ti-layout-dashboard"></i>
                 </span>
-                <span class="hide-menu">Nayla Renaldi</span>
+                <span class="hide-menu">Nayla Rinaldi</span>
               </a>
             </li>
         </nav>
