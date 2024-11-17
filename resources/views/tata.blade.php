@@ -11,18 +11,18 @@
                 <!-- Kolom untuk teks di kiri -->
                 <div class="col-md-6">
                     <h1>Data Diri</h1>
-                    <p><strong>Nama:</strong> Nayla Rinaldi</p>
-                    <p><strong>NIM:</strong> 2355301161</p>
+                    <p><strong>Nama:</strong> Tatiavierzara Rizky</p>
+                    <p><strong>NIM:</strong> 2355301196</p>
                     <p><strong>Prodi:</strong> Teknik Informatika</p>
-                    <p><strong>Alamat:</strong> Jalan Permata Sari</p>
-                    <p><strong>Email:</strong> nayla23ti@pcr.ac.id</p>
-                    <p><strong>Nomor Telepon:</strong> 0856581447</p>
+                    <p><strong>Alamat:</strong> Jl Umban Sari Gg.Permata Sari</p>
+                    <p><strong>Email:</strong> tatiavierzara2323ti@pcr.ac.id</p>
+                    <p><strong>Nomor Telepon:</strong> 085264663175</p>
                     <p><strong>Nama Kelompok:</strong> Batalyon-i7</p>
                 </div>
 
                 <!-- Kolom untuk gambar di kanan -->
                 <div class="col-md-6">
-                    <img src="{{ asset('image/nayla.jpg') }}" alt="Foto Nayla" class="img-fluid">
+                    <img src="{{ asset('image/tata.jpg') }}" alt="Foto Tata" class="img-fluid">
                 </div>
             </div>
         </div>
