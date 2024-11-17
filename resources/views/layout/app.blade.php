@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bulan Mulya</title>
+  <title>Batalyon-i7</title>
   <link rel="shortcut icon" type="image/png" href="{{url ('Modernize-bootstrap-free-main/src/assets/images/logos/favicon.png') }}" />
   <link rel="stylesheet" href="{{ url('Modernize-bootstrap-free-main/src/assets/css/styles.min.css') }}" />
 </head>
