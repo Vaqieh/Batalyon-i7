@@ -56,6 +56,14 @@
                 <span class="hide-menu">Tatiavierzara Rizky</span>
               </a>
             </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="{{ route('vaqieh') }}" aria-expanded="false">
+                <span>
+                  <i class="ti ti-layout-dashboard"></i>
+                </span>
+                <span class="hide-menu">Vaqieh Muwafvaq</span>
+              </a>
+            </li>
         </nav>
         <!-- End Sidebar navigation -->
       </div>
