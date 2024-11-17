@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+// use Illuminate\Support\Facades\Storage;
 
 class timController extends Controller
 {
@@ -11,7 +12,8 @@ class timController extends Controller
      */
     public function index()
     {
-        return "Test";
+        $data['students'] = \App\Models\tim::latest()->get();
+        return view('tim_index',$data);
     }
 
     /**
@@ -19,7 +21,7 @@ class timController extends Controller
      */
     public function create()
     {
-        //
+        return view('tim_create');
     }
 
     /**
@@ -27,7 +29,20 @@ class timController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $requestData = $request->validate([
+            'foto' =>'required|image|mimes:jpeg,jpg,png|max:50000',
+            'nama' => 'required|min:3',
+            'nim' => 'required|numeric',
+            'prodi' => 'required|nullable',
+            'alamat' => 'nullable', //alamat boleh kosong
+            'email' => 'required|nullable',
+        ]);
+        // dd($request->file('foto'));
+        $tim = new \App\Models\Tim(); //membuat objek kosong di variabel model
+        $tim->fill($requestData); //mengisi var model dengan data yang sudah divalidasi requestData
+        $tim->foto = $request->file('foto')->store('public');
+        $tim->save(); //menyimpan data ke database
+        return redirect('/tim');
     }
 
     /**

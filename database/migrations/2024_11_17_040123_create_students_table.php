@@ -18,9 +18,7 @@ return new class extends Migration
             $table->string('prodi');
             $table->string('alamat');
             $table->string('email')->unique();
-            $table->string('nomor_telepon');
-            $table->string('nama_kelompok');
-            $table->string('foto')->nullable(); 
+            $table->string('foto')->nullable();
             $table->timestamps();
         });
     }
