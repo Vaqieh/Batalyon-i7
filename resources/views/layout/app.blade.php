@@ -33,6 +33,18 @@
               <span class="hide-menu">Menu Utama</span>
             </li>
             <li class="sidebar-item">
+                <a class="sidebar-link" href="/tim" aria-expanded="false">
+                  <span>
+                    <i class="ti ti-layout-dashboard"></i>
+                  </span>
+                  <span class="hide-menu">Anggota Tim</span>
+                </a>
+              </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">Anggota</span>
+            </li>
+            <li class="sidebar-item">
               <a class="sidebar-link" href="{{ route('ferdinand') }}" aria-expanded="false">
                 <span>
                   <i class="ti ti-layout-dashboard"></i>
@@ -93,11 +105,11 @@
                 <!-- Add User's Name in the Button if Logged In -->
                 @auth
                     <a href="https://adminmart.com/product/modernize-free-bootstrap-admin-dashboard/" target="_blank" class="btn btn-primary">
-                        {{ Auth::user()->name }} 
+                        {{ Auth::user()->name }}
                     </a>
-                
+
                 @endauth
-        
+
                 <!-- Authentication Links -->
                 @guest
                     @if (Route::has('login'))
@@ -105,7 +117,7 @@
                             <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                         </li>
                     @endif
-        
+
                     @if (Route::has('register'))
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
@@ -131,24 +143,24 @@
                                     <i class="ti ti-list-check fs-6"></i>
                                     <p class="mb-0 fs-3">My Task</p>
                                 </a>
-                               
+
                                     <a  href="/logout" class="btn btn-outline-primary mx-3 mt-2 d-block">Logout</a>
-                                   
+
                             </div>
                         </div>
                     </li>
                 @endguest
             </ul>
         </div>
-        
-        
+
+
         </nav>
       </header>
       <!--  Header End -->
       <div>
         @yield('content')
       </div>
-      
+
     </div>
   </div>
   <script src="{{url('Modernize-bootstrap-free-main/src/assets/libs/jquery/dist/jquery.min.js')}}"></script>

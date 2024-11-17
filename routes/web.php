@@ -28,8 +28,8 @@ Route::get('/vaqieh', function () {
 })->name('vaqieh');
 
 
-Route::get('datadiri', [DataDiriController::class, 'index']);
-Route::get('datanayla', [DataDiriNaylaController::class, 'index']);
+// Route::get('datadiri', [DataDiriController::class, 'index']);
+// Route::get('datanayla', [DataDiriNaylaController::class, 'index']);
 Route::get('datatata', [DataDiriTataController::class, 'index']);
 Route::get('datavaqieh', [DataDiriVaqiehController::class, 'index']);
 
